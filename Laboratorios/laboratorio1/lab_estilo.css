@@ -1,0 +1,58 @@
+.bg-rojo{
+    background-color: red;
+    padding: 10px;
+}
+.bg-verde{
+    background-color: rgb(80, 218, 80);
+    padding: 10px;
+}
+.bg-azul{
+    background-color: rgb(50, 50, 156);
+}
+.bg-amarillo{
+    background-color: yellow;
+}
+.bg-naranja{
+    background-color: rgb(253, 186, 61);
+}
+.bg-blanco{
+    background-color: white;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+}
+.texto{
+    font-size: 20px;
+}
+.centro{
+    width: 60px;
+    padding: 10px;
+    text-align: center;
+    margin: 50px 60px;
+}
+.menu{
+    width: 700px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+.main-item{
+    width: 33.33%;
+}
+.footer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}

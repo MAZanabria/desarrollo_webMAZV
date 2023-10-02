@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="convertir.php">
+
+    <title>pregunta 1</title><br>
+    
+</head>
+<style>
+    body {
+        text-align: center;
+    }
+    .contenedor {
+        width: 400px;
+        margin: 100px auto;
+        padding: 20px;
+        border: 2px solid yellow;
+        background-color: lightgray;
+    }
+</style>
+<body>
+    <div class="contenedor">
+        <h2>Convertir  Unidades</h2>
+        <form method="post" action="convertir.php">
+            <label for="cantidad">Cantidad:</label>
+            <input type="text" name="cantidad" required><br><br>
+            
+            <label for="unidad_origen">Unidad de medida:</label>
+            <select name="unidad_origen" required>
+                <option value="mm">Milimetro</option>
+                <option value="cm">Centimetro</option>
+                <option value="dm">Decimetro</option>
+                <option value="m">Metro</option>
+                <option value="km">Kilometro</option>
+            </select><br><br>
+            
+            <label for="unidad_destino">Unidad de destino:</label>
+            <select name="unidad_destino" required>
+                <option value="mm">Milimetro</option>
+                <option value="cm">Centimetro</option>
+                <option value="dm">Decimetro</option>
+                <option value="m">Metro</option>
+                <option value="km">Kilometro</option>
+            </select><br><br>
+            
+            <input type="submit" name="convertir" value="Convertir">
+
+        </form>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,72 @@
+.contenedBlog{
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 1100px;
+    height: 80px;
+    background-color: rgba(248, 175, 153, 0.952);
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+.contend{
+    width: 1100px;
+    height: 40px;
+    background-color: rgb(137, 230, 137);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.centrado{
+    text-align: center;
+}
+.footer{
+   display: flex;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+}
+.log{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.opcion{
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.dir{
+    width: 770;
+    display: flex;
+    flex-direction: row;
+}
+.color{
+    width: 420px;
+    background-color: #F2F2F2;
+}
+.artic{
+    width: 680px;
+    padding-left: 10px;
+}
+.footer{
+    width: 1100px;
+    height: 60px;
+    background-color: #cccccc;
+    font-size: 25px;
+    text-align: center;
+    padding: 12px;
+}

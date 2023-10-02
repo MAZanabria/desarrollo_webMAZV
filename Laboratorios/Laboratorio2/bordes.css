@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+}
+.contenedor {
+    width: 400px;
+    margin: 150px auto;
+    padding: 20px;
+    border: 2px solid yellow;
+    background-color: lightgray;
+}
