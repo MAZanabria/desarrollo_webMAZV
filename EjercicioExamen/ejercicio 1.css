@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-celeste{
+    background-color: rgb(177, 236, 238);
+}
+.rojo{
+    color: red;
+}
+.amarillo{
+    color: yellow;
+}
+.verde{
+    color: green;
+}
+.azul{
+    color: blue;
+}
+.contenido{
+    display: flex;
+    width: 900px;
+    height: 200px;
+    flex-wrap: wrap;
+}
+.centrado{
+    text-align: center;
+    justify-content: center;
+}
+.lado{
+   width: 120px;
+    height: 200px;
+    padding: 30px 10px;
+    background-color: rgb(141, 139, 139);
+}
+.cont{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+.lado_2{
+    width: 780px;
+    height: 200px;
+    background-color: rgb(235, 229, 223);
+}
