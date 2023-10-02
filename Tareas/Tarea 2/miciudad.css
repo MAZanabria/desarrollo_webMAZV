@@ -1,0 +1,14 @@
+p{
+    color: blue;
+    text-align: justify;
+    font-family: Verdana;
+}
+.resaltado{
+      
+    display: inline;
+    border-left-width: 15px;
+}
+
+.container{
+    display: flex;
+}

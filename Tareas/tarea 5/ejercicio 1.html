@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Mayor y Menor</title>
+</head>
+<body>
+    <script>
+       function Mayor_menor(){
+        var numero1 = parseInt(prompt("ingresar el primer numero"))
+        var numero2 = parseInt(prompt("Ingresar el segundo numero"));
+        var numero3 = parseInt(prompt("Ingresar el tercer numero"));
+
+        var mayor, menor;
+        if(numero1 >= numero2 && numero1>= numero3){
+            mayor = numero1;
+        }else if(numero2 >= numero1 && numero2 >= numero3){
+            mayor = numero2;
+        }else{
+            mayor =numero3;
+        }
+
+        if(numero1 <= numero2 && numero1 <= numero3){
+            menor = numero1;
+        }else if(numero1 <= numero2 && numero1 <= numero3){
+            menor = numero2;
+        }else{
+            menor = numero3;
+        }
+          console.log("El numero mayor es: " + mayor);
+          console.log("El numero menos es: " + menor);
+       }
+       console.log(Mayor_menor());
+
+    </script>
+</body>
+</html>
