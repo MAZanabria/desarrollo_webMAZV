@@ -1,0 +1,29 @@
+<form class="calc_options" id="calc_form" method="post">
+    <div>Tabla del</div>
+    <input type="number" name="numero" class="calc_input">
+    <div>
+        <div>
+            <input type="radio" name="operacion" value="suma">
+            <label>Suma</label>
+        </div>
+        <div>
+            <input type="radio" name="operacion" value="resta">
+            <label>Resta</label>
+        </div>
+    </div>
+    <div>
+        <div>
+            <input type="radio" name="operacion" value="factorial">
+            <label>Factorial</label>
+        </div>
+    </div>
+    <div>Hasta el</div>
+    <input type="number" name="hasta" class="calc_input">
+    <button onclick="calcular()" type="button">Calcular</button>
+</form>
+
+<div class="resultados">
+    <table border=1 id="table">
+        
+    </table>
+</div>
